@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Orka Catering – Kurumsal Yemek</title>
+<meta name="description" content="Kurumsal yemek üretimi, yerinde üretim ve taşıma yemek çözümleri.">
+<style>
+  *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto,Arial;background:#0f172a;color:#e5e7eb}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+  header{position:sticky;top:0;background:rgba(2,6,23,.75);backdrop-filter:blur(8px);border-bottom:1px solid #1f2937}
+  nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+  .logo{display:flex;gap:8px;align-items:center;font-weight:800}
+  .dot{width:10px;height:10px;border-radius:50%;background:#f59e0b}
+  ul{list-style:none;display:flex;gap:14px;margin:0;padding:0}
+  .btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;background:#f59e0b;color:#111827}
+  .btn.alt{background:transparent;border:1px solid #334155;color:#e5e7eb}
+  .hero{padding:70px 0;background:linear-gradient(180deg, rgba(245,158,11,.08), transparent)}
+  h1{font-size:40px;line-height:1.15;margin:14px 0}
+  .lead{color:#94a3b8;max-width:720px}
+  .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:18px}
+  .card{background:#0b1220;border:1px solid #233043;border-radius:16px;overflow:hidden}
+  .card .c{padding:14px}
+  footer{border-top:1px solid #1f2937;background:#0b1220;color:#94a3b8;padding:26px 0}
+  @media(max-width:800px){.grid{grid-template-columns:1fr 1fr} h1{font-size:32px}}
+  @media(max-width:520px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="logo" href="./"><span class="dot"></span>Orka Catering</a>
+      <ul>
+        <li><a href="./">Ana Sayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Menü</a></li>
+        <li><a href="#">Galeri</a></li>
+        <li><a href="#">İletişim</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span style="border:1px solid #334155;border-radius:999px;padding:6px 10px;color:#94a3b8;display:inline-block">
+      ISO 22000 · Günlük Taze Üretim
+    </span>
+    <h1>Kurumsal Yemek Çözümleri<br>Lezzet, Hijyen, Zamanında Teslim.</h1>
+    <p class="lead">
+      Fabrika ve ofisler için haftalık menüler, diyetisyen kontrolü, soğuk zincir ve <b>yerinde üretim</b> opsiyonları.
+    </p>
+    <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+      <a class="btn" href="#">Haftalık Menü</a>
+      <a class="btn alt" href="#">Teklif Al</a>
+    </div>
+  </div>
+</section>
+
+<section style="padding:46px 0">
+  <div class="wrap">
+    <h2 style="margin:0 0 8px">Hizmetlerimiz</h2>
+    <p class="lead">İhtiyacınıza uygun esnek ve ölçeklenebilir çözümler.</p>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&auto=format&fit=crop&w=1200" alt="" />
+        <div class="c"><b>Yerinde Üretim</b><br><small class="lead">Mutfağınızı kuruyor, günlük üretim yapıyoruz.</small></div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?q=80&auto=format&fit=crop&w=1200" alt="" />
+        <div class="c"><b>Taşıma Yemek</b><br><small class="lead">Isı kontrollü araçlarla zamanında teslim.</small></div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&auto=format&fit=crop&w=1200" alt="" />
+        <div class="c"><b>Etkinlik & Organizasyon</b><br><small class="lead">Toplantı ve özel gün menüleri.</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    © Orka Catering · <a href="mailto:info@orkacatering.com">info@orkacatering.com</a> · <a href="tel:+905xxxxxxxxx">+90 5xx xxx xx xx</a>
+  </div>
+</footer>
+</body>
+</html>
